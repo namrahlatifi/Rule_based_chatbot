@@ -48,13 +48,14 @@ chatbot_advanced/
 git clone https://github.com/your-username/chatbot_advanced.git
 cd chatbot_advanced
 
-## **🚀 2. Run the Chatbot**
+### 2. Run the Chatbot
 
 ```bash
 python run_chatbot.py
 
-## **💬 3. Try Chatting**
+## 💬 Try Chatting
 
+```text
 You: hello  
 Bot: Hi there! How can I help you today?
 
@@ -67,23 +68,35 @@ Bot: Why did the developer go broke? Because he used up all his cache!
 You: goodbye  
 Bot: Take care!
 
+
 ## 📝 Sample Questions Supported
-- What is AI / Python / NLP?
--Who created you?
--How are you?
--What can you do?
--What’s the weather?
--Tell me a joke
--Do you like music?
--And many more...
+
+- What is AI / Python / NLP?  
+- Who created you?  
+- How are you?  
+- What can you do?  
+- What’s the weather?  
+- Tell me a joke  
+- Do you like music?  
+- What’s your hobby?  
+- How to learn Python?  
+- And many more...
+
+---
 
 ## 📦 How It Works
-Input is preprocessed (lowercased, punctuation removed).
 
-Bot checks for matches in greetings, farewells, FAQs.
+- User input is preprocessed: converted to lowercase and cleaned of punctuation  
+- The bot checks for matches in these categories, in order:
+  1. Greetings (e.g., "hi", "hello")
+  2. Farewells (e.g., "bye", "see you")
+  3. Small talk (e.g., hobbies, music, weather)
+  4. FAQs (predefined Q&A)
+  5. Synonyms (e.g., "explain python" → "what is python")
+- If no match is found, a fallback response is triggered  
+- Every question and answer is logged in `conversation_log.txt`
 
-If no match is found, it tries synonym mapping.
 
-Still no match? It responds with a fallback message.
 
-All conversations are logged into conversation_log.txt.
+
+
