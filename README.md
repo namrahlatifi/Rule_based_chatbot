@@ -44,18 +44,17 @@ chatbot_advanced/
 
 ### 1. Clone or Download the Project
 
-```bash
 git clone https://github.com/your-username/chatbot_advanced.git
 cd chatbot_advanced
 
 ### 2. Run the Chatbot
 
-```bash
+
 python run_chatbot.py
 
 ## 💬 Try Chatting
 
-```text
+
 You: hello  
 Bot: Hi there! How can I help you today?
 
