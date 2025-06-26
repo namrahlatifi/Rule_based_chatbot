@@ -1,0 +1,27 @@
+User: how are you
+Bot: I’m doing great, thank you for asking!
+
+User: whats the weather
+Bot: I’m not connected to the internet, but it's always sunny here!
+
+User: what is ai
+Bot: AI stands for Artificial Intelligence. It's about making machines think!
+
+User: what is python
+Bot: Python is a high-level programming language known for its readability.
+
+User: what is machine learning
+Bot: ML enables computers to learn from data and make decisions.
+
+User: do u use ml
+Bot: I'm not sure how to answer that. Can you rephrase it?
+
+User: do u like music
+Bot: I'm not sure how to answer that. Can you rephrase it?
+
+User: do you like music
+Bot: I enjoy binary beats!
+
+User: see ya
+Bot: Take care!
+

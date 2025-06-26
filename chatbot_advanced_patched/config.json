@@ -1,0 +1,71 @@
+{
+  "greetings": {
+    "patterns": [
+      "hi",
+      "hello",
+      "hey",
+      "hey there",
+      "good morning",
+      "good evening",
+      "whats up"
+    ],
+    "responses": [
+      "Hello!",
+      "Hi there!",
+      "Hey! How can I help you today?"
+    ]
+  },
+  "farewells": {
+    "patterns": [
+      "bye",
+      "goodbye",
+      "see you",
+      "take care",
+      "see ya"
+    ],
+    "responses": [
+      "Goodbye!",
+      "See you later!",
+      "Take care!"
+    ]
+  },
+  "faqs": {
+    "what is your name": "I\u2019m DevifyBot, your AI assistant!",
+    "how are you": "I\u2019m doing great, thank you for asking!",
+    "what can you do": "I can answer your questions, tell jokes, and chat with you!",
+    "who created you": "A developer passionate about AI built me.",
+    "what is python": "Python is a high-level programming language known for its readability.",
+    "what is AI": "AI stands for Artificial Intelligence. It's about making machines think!",
+    "what is NLP": "NLP is Natural Language Processing \u2014 a way for computers to understand human language.",
+    "how to learn python": "Start with free tutorials like W3Schools or Python.org!",
+    "what are variables": "Variables are like containers to store values in programming.",
+    "what is machine learning": "ML enables computers to learn from data and make decisions.",
+    "what is chatbot": "A chatbot is a program designed to simulate conversation.",
+    "tell me a joke": "Why did the developer go broke? Because he used up all his cache!",
+    "what\u2019s the weather": "I\u2019m not connected to the internet, but it's always sunny here!",
+    "do you have a hobby": "Yes! Talking to awesome people like you.",
+    "you\u2019re smart": "Thank you! You\u2019re quite sharp yourself.",
+    "tell me something interesting": "Did you know honey never spoils? Archaeologists found 3,000-year-old edible honey!",
+    "who is your creator": "I was created by a brilliant developer applying for DevifyX!"
+  },
+  "synonyms": {
+    "hi": [
+      "hello",
+      "hey",
+      "hey there"
+    ],
+    "bye": [
+      "goodbye",
+      "see ya"
+    ],
+    "what is python": [
+      "explain python",
+      "define python"
+    ]
+  },
+  "small_talk": {
+    "how is the weather": "I wish I could check, but I live in the terminal.",
+    "do you like music": "I enjoy binary beats!",
+    "what\u2019s your hobby": "Making conversations meaningful."
+  }
+}
